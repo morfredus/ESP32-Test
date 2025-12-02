@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PlatformIO](https://img.shields.io/badge/PlatformIO-compatible-blue.svg)](https://platformio.org/)
-[![Version](https://img.shields.io/badge/version-0.1.1-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.1.2-green.svg)](CHANGELOG.md)
 
 **ESP32-Test** is a lightweight web-based system diagnostic tool for ESP32 microcontrollers. It provides real-time hardware information through a clean web interface, perfect for testing and monitoring ESP32-S3, ESP32-S2, and ESP32 Classic boards.
 
@@ -90,12 +90,18 @@ default_envs = esp32s3_n16r8  ; or esp32s3_n8r8, esp32devkitc
 # Using PlatformIO CLI
 platformio run -t upload
 
+# Or use auto detection helper
+python scripts/auto_env.py upload
+
 # Or use PlatformIO IDE: click "Upload" button
 ```
 
 5. **Monitor serial output**
 ```bash
 platformio device monitor -b 115200
+
+# Or auto-detect port
+python scripts/auto_env.py monitor
 ```
 
 6. **Access the web interface**

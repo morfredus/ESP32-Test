@@ -75,3 +75,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 [0.1.1]: https://github.com/yourusername/ESP32-Test/releases/tag/v0.1.1
 [0.1.0]: https://github.com/yourusername/ESP32-Test/releases/tag/v0.1.0
+
+## [0.1.2] - 2025-12-03
+
+### Added
+- Auto environment selection helper script `scripts/auto_env.py` (detects board and selects PlatformIO env)
+
+### Changed
+- README and README_FR updated to document auto detection usage
+- Minor notes added in `platformio.ini` for helper usage
+
+### Documentation
+- Ensured FR/EN docs parity and links
+

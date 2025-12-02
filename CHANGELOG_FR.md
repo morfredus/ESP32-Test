@@ -75,3 +75,16 @@ et ce projet adhère au [Versionnage Sémantique](https://semver.org/lang/fr/).
 
 [0.1.1]: https://github.com/yourusername/ESP32-Test/releases/tag/v0.1.1
 [0.1.0]: https://github.com/yourusername/ESP32-Test/releases/tag/v0.1.0
+
+## [0.1.2] - 2025-12-03
+
+### Ajouté
+- Script d’aide `scripts/auto_env.py` pour sélectionner automatiquement l’environnement PlatformIO selon la carte détectée
+
+### Modifié
+- README et README_FR mis à jour pour documenter l’utilisation de l’auto-détection
+- Note ajoutée dans `platformio.ini` pour l’assistant
+
+### Documentation
+- Harmonisation des liens et parité FR/EN
+
